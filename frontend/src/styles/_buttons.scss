@@ -1,0 +1,25 @@
+@import './colors';
+@import './mixins/button-bg.mixin.scss';
+.btn {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px #0000000b;
+    outline: 0;
+    border: 1px solid transparent;
+    font-family: inherit;
+}
+
+.btn-primary {
+    @include button-bg($primary);
+}
+
+.btn-secondary {
+    @include button-bg($secondary);
+}
+
+.btn-warn {
+    @include button-bg($warn);
+}

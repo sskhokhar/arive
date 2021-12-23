@@ -1,0 +1,11 @@
+@import '../../styles/colors';
+.hobby-add-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    input {
+        &.error {
+            border-color: $warn;
+        }
+    }
+}

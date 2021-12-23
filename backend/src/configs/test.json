@@ -1,0 +1,12 @@
+{
+    "env": "test",
+    "dbConfig": {
+        "host": "localhost",
+        "database": "arive_test",
+        "port": 27017
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    }
+}

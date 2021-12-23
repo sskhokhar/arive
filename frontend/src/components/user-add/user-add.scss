@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+.user-add-wrapper {
+    display: flex;
+    align-items: center;
+    input {
+        &.error {
+            border-color: $warn;
+        }
+    }
+}

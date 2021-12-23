@@ -1,0 +1,9 @@
+@import './mixins/text-field.mixin.scss';
+@import './mixins/select-field.mixin.scss';
+.input {
+    @include text-field;
+}
+
+.select-wrapper {
+    @include select-field;
+}

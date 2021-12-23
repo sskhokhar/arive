@@ -1,0 +1,11 @@
+@mixin button-bg($color) {
+    background: $color;
+    border-color: $color;
+    &:hover {
+        background: darken($color, 8%);
+        transition: all 0.3s;
+    }
+    &:active {
+        background: darken($color, 25%);
+    }
+}

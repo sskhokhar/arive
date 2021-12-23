@@ -1,0 +1,18 @@
+.header {
+    background: #e4e4e4;
+    text-align: center;
+    padding: 1px 0;
+    margin-bottom: 20px;
+}
+
+.partial-wrapper {
+    display: flex;
+    .users-partial-main {
+        width: 25%;
+        margin-right: 4px;
+    }
+    .hobbies-partial-main {
+        width: 75%;
+        margin-left: 4px;
+    }
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `"<div class=\\"hobby-wrapper\\"><span>Passion Level: </span><span>Name: </span><span>Since: </span><span><button class=\\"btn btn-warn\\">Delete</button></span></div>"`;
+
+exports[`<HobbyItem /> should render the item 1`] = `"<div class=\\"hobby-wrapper\\"><span>Passion Level: </span><span>Name: </span><span>Since: </span><span><button class=\\"btn btn-warn\\">Delete</button></span></div>"`;
+
+exports[`<HobbyItem /> should render the props 1`] = `"<div class=\\"hobby-wrapper\\"><span>Passion Level: </span><span>Name: </span><span>Since: </span><span><button class=\\"btn btn-warn\\">Delete</button></span></div>"`;
